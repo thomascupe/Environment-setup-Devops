@@ -1,0 +1,11 @@
+# DevOps environment helpers (append to ~/.bashrc if desired)
+export EDITOR="code --wait"
+export KUBECONFIG="${KUBECONFIG:-$HOME/.kube/config}"
+
+# Quick navigation to your DevOps workspace
+mkdir -p "$HOME/devops-setup"
+alias cdev='cd "$HOME/devops-setup"'
+alias k='kubectl'
+alias tf='terraform'
+
+# Load changes with: source ~/.bashrc
