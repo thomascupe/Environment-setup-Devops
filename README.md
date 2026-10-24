@@ -87,3 +87,17 @@ kubectl get nodes
 - Evidence: `evidence/vscode-verification.png`
 
 Screenshots were captured from the local development environment after verification.
+## Git Version Control and Commit History
+
+The project is maintained in a local Git repository.
+
+### Version Control Verification
+- Repository initialized using `git init`.
+- Git username and email configured.
+- Project files staged and committed.
+- Commit history verified using `git log --oneline --graph --decorate --all`.
+
+### Commit History
+The repository contains commits documenting the initial DevOps environment setup, installation documentation, and verification evidence.
+
+
