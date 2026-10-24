@@ -71,3 +71,19 @@ kubectl get nodes
 
 > Update this README with the versions actually installed and the problems you
 > personally encountered. Do not claim a tool is installed unless verification passes.
+> ## Git and Visual Studio Code Verification
+
+### Git
+- Verified using `git --version`.
+- Configured Git username and email.
+- Initialized the `devops-setup` Git repository and checked its status.
+- Evidence: `evidence/git-verification.png`
+
+### Visual Studio Code
+- Installed Visual Studio Code on Windows.
+- Enabled the WSL extension for Ubuntu integration.
+- Opened the `devops-setup` project using `code .`.
+- Verified Git integration in the integrated terminal.
+- Evidence: `evidence/vscode-verification.png`
+
+Screenshots were captured from the local development environment after verification.
